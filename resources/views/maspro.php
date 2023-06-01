@@ -184,7 +184,7 @@ require_once '../resources/views/maspro/Autoload.php';
                 }
             ?>
             <section class="content">
-                <a href="../../public/pdf.php" class="titles">Exportar a pdf.</a>
+                <a href="../../maspro/public/pdf.php" class="titles">Exportar a pdf.</a>
             </section>
         </div>
         <footer class="header">
