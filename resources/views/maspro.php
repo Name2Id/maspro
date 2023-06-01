@@ -1,5 +1,5 @@
 <?php
-require_once './maspro/Autoload.php';
+require_once '../resources/views/maspro/Autoload.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,8 +13,8 @@ require_once './maspro/Autoload.php';
     </head>
     <body>
         <?php
-            Prueba::_display('./maspro/files/header.php');
-            Prueba::_display('./maspro/files/container.php');
+            Prueba::_display('../resources/views/maspro/files/header.php');
+            Prueba::_display('../resources/views/maspro/files/container.php');
         ?>
         <h2 class="header">PHP - CLASSES ( mini:API )</h2>
         <div class="container">

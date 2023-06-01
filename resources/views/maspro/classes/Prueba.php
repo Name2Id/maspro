@@ -18,7 +18,7 @@ class Prueba {
         return "<p class=\"p\">";
     }
     public static function _layout () {
-        return "<link rel=\"stylesheet\" href=\"./maspro/css/layout.css\">";
+        return "<link rel=\"stylesheet\" href=\"../resources/views/maspro/css/layout.css\">";
     }
     public static function _display ($file) {
         require_once $file;
