@@ -183,8 +183,9 @@ require_once '../resources/views/maspro/Autoload.php';
                     echo "<p class='p'>{$product->description}</p></section>";
                 }
             ?>
-            <hr>
-            <a href="../../public/pdf.php">Exportar a pdf.</a>
+            <section class="content">
+                <a href="../../public/pdf.php" class="titles">Exportar a pdf.</a>
+            </section>
         </div>
         <footer class="header">
             &copy;Ramiro. <a href="https://www.instagram.com/perfilmaspro/">
