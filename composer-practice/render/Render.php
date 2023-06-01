@@ -18,4 +18,10 @@ class Render {
     public function get () {
         return $this->built;
     }
+    public function sanitize () {
+
+    }
+    public function render ($string) {
+        
+    }
 }
