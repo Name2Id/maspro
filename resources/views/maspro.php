@@ -175,6 +175,17 @@ require_once '../resources/views/maspro/Autoload.php';
                 ?>
             </section>
         </div>
+        <h2 class="header">Lista de Productos</h2>
+        <div class="container">
+            <?php
+                foreach ($products as $product) {
+                    echo "<section class='content'><h2 class='titles'>{$product->name}</h2>";
+                    echo "<p class='p'>{$product->description}</p></section>";
+                }
+            ?>
+            <hr>
+            <a href="../../public/pdf.php">Exportar a pdf.</a>
+        </div>
         <footer class="header">
             &copy;Ramiro. <a href="https://www.instagram.com/perfilmaspro/">
             <i class="fa-brands fa-instagram"></i>

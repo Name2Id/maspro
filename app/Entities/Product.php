@@ -1,7 +1,8 @@
 <?php
 namespace App\Entities;
-class Product {
+use Illuminate\Database\Eloquent\Model;
+class Product extends Model {
     public static function get () {
-        return 1;
+        return [];
     }
 }
