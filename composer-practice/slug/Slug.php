@@ -5,4 +5,8 @@ class Slug {
         $slug = preg_replace('/[^\w\d\-\_]/i','',$slug);
         return strtolower($slug);
     }
+    public function camelCase () {
+        $string = new Camel;
+        return $string;
+    }
 }
