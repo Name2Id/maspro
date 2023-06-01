@@ -7,6 +7,7 @@ class Render {
         foreach ($array as $word) {
             $this->data[] = $word;
         }
+        return $this;
     }
     public function link ($char) {
         foreach ($this->data as $word) {
