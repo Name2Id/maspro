@@ -19,9 +19,10 @@ class Render {
         return $this->built;
     }
     public function sanitize () {
-
+        $slug = new Slug;
+        return $slug;
     }
     public function render ($string) {
-        
+
     }
 }

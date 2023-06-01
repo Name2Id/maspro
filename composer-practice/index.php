@@ -14,4 +14,4 @@ echo $sentence->words(['hola','mundo','jeje'])->link('-')->get();
 
 $slug = new Render;
 
-echo $slug->sanitize()->render('Programacion orientada a objetos.');
+echo $slug->sanitize()->render('Programacion Orientada A Objetos.');
