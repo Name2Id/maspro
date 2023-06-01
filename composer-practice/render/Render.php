@@ -13,6 +13,7 @@ class Render {
         foreach ($this->data as $word) {
             $this->built .= $word.$char;
         }
+        return $this;
     }
     public function get () {
         return $this->built;
