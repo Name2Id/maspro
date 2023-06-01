@@ -1,0 +1,22 @@
+{
+    "name": "name2id/cursophp",
+    "description": "curso basico de php",
+    "type": "project",
+    "require": {
+        "illuminate/database": "10.x-dev",
+        "dompdf/dompdf": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Name2id\\Cursophp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Name2Id",
+            "email": "r.gg.3@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
