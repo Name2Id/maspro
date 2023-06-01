@@ -1,12 +1,11 @@
 <?php
 namespace App;
-use App\Maspro;
 class MasproIncludes {
     public function estructura () {
         echo Maspro::_content();
             echo Maspro::_title('2');
             echo "Estructura de archivos y carpetas";
-            echo rg('h2');
+            echo Maspro::rg('h2');
             echo "<ol>
                 <li>classes/</li>
                 <li>css/</li>
@@ -14,20 +13,20 @@ class MasproIncludes {
                 <li>Autoload</li>
                 <li>index</li>
             </ol>";
-        echo rg('section');
+        echo Maspro::rg('section');
     }
     public function container () {
-        echo Maspro::_layout('../maspro/public/css/layout.css');
+        echo Maspro::_layout('./css/layout.css');
         echo Maspro::container();
         //write your code here.
         $this->estructura();
-        echo rg('main');
+        echo Maspro::rg('main');
     }
     public function header_ () {
         echo Maspro::_header();
             echo Maspro::_title();
             echo "DOCUMENTANDO MI C&Oacute;DIGO.";
-            echo rg('h1');
-        echo rg('header');
+            echo Maspro::rg('h1');
+        echo Maspro::rg('header');
     }
 }

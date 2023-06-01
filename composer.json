@@ -1,0 +1,19 @@
+{
+    "name": "name2id/maspro",
+    "description": "libreria",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Name2Id",
+            "email": "r.gg.3@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

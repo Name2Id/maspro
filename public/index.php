@@ -1,5 +1,7 @@
 <?php
-require_once './Autoload.php';
+require_once '../vendor/autoload.php';
+use App\Maspro;
+use App\MasproIncludes;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,8 +15,9 @@ require_once './Autoload.php';
     </head>
     <body>
         <?php
-            Prueba::_display('./files/header.php');
-            Prueba::_display('./files/container.php');
+            $maspro = new MasproIncludes;
+            $maspro->header_();
+            $maspro->container();
         ?>
         <h2 class="header">PHP - CLASSES ( mini:API )</h2>
         <div class="container">
@@ -162,9 +165,10 @@ require_once './Autoload.php';
             allowfullscreen></iframe>
             <section class="content">
                 <?php
-                echo Prueba::_title('2');
+                $mp = new Maspro;
+                echo $mp->_title('2');
                     echo "Recurso para agregar iconos a tu proyecto";
-                echo rg('h2');
+                echo $mp->rg('h2');
                 echo "<pre>";
                 echo str_replace(' ', '',htmlspecialchars('<script 
                 src="https://kit.fontawesome.com/
