@@ -9,7 +9,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Name2id\\Cursophp\\": "src/"
+            "App\\": "app"
         }
     },
     "authors": [

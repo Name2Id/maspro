@@ -8,8 +8,8 @@ class ComposerStaticInit7141bf3a0caad02b3f3b7a430bfe75da
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
-        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '60799491728b879e74601d83e38b2cad' => __DIR__ . '/..' . '/illuminate/collections/helpers.php',
+        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
     );
@@ -32,10 +32,6 @@ class ComposerStaticInit7141bf3a0caad02b3f3b7a430bfe75da
         array (
             'Psr\\SimpleCache\\' => 16,
             'Psr\\Container\\' => 14,
-        ),
-        'N' => 
-        array (
-            'Name2id\\Cursophp\\' => 17,
         ),
         'M' => 
         array (
@@ -64,6 +60,10 @@ class ComposerStaticInit7141bf3a0caad02b3f3b7a430bfe75da
         'B' => 
         array (
             'Brick\\Math\\' => 11,
+        ),
+        'A' => 
+        array (
+            'App\\' => 4,
         ),
     );
 
@@ -104,19 +104,15 @@ class ComposerStaticInit7141bf3a0caad02b3f3b7a430bfe75da
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
-        'Name2id\\Cursophp\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'Masterminds\\' => 
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
         ),
         'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/macroable',
+            0 => __DIR__ . '/..' . '/illuminate/collections',
             1 => __DIR__ . '/..' . '/illuminate/conditionable',
-            2 => __DIR__ . '/..' . '/illuminate/collections',
+            2 => __DIR__ . '/..' . '/illuminate/macroable',
             3 => __DIR__ . '/..' . '/illuminate/support',
         ),
         'Illuminate\\Database\\' => 
@@ -150,6 +146,10 @@ class ComposerStaticInit7141bf3a0caad02b3f3b7a430bfe75da
         'Brick\\Math\\' => 
         array (
             0 => __DIR__ . '/..' . '/brick/math/src',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 
