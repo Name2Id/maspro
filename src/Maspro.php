@@ -1,7 +1,6 @@
 <?php
-
-class Prueba {
-    use Test;
+namespace App;
+class Maspro {
     public static function container () {
         return "<main class=\"container\">";
     }
@@ -17,8 +16,11 @@ class Prueba {
     public static function _p () {
         return "<p class=\"p\">";
     }
-    public static function _layout () {
-        return "<link rel=\"stylesheet\" href=\"./css/layout.css\">";
+    public static function rg ($tag) {
+        return "</".$tag.'>';
+    }
+    public static function _layout ($path) {
+        return "<link rel=\"stylesheet\" href=\"$path\">";
     }
     public static function _display ($file) {
         require_once $file;
