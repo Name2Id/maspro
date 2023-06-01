@@ -178,7 +178,7 @@ require_once '../resources/views/maspro/Autoload.php';
         <h2 class="header">Lista de Productos</h2>
         <div class="container">
             <?php
-                foreach ($products as $product) {
+                foreach ((Object)$products as $product) {
                     echo "<section class='content'><h2 class='titles'>{$product->name}</h2>";
                     echo "<p class='p'>{$product->description}</p></section>";
                 }
